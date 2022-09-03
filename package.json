@@ -1,0 +1,28 @@
+{
+	"name": "chaincode1",
+	"version": "1.0.0",
+	"author": {
+		"name": "wangchao"
+	},
+	"description": "first chaincode implemented in node.js, which is constantly improving",
+	"keywords": [
+		"node.js",
+		"javascript"
+	],
+	"repository": {
+		"type": "git",
+		"url": "ssh://git@10.201.200.188:222/chenjing/chaincode.git"
+	},
+	"engines": {
+		"node": ">=8.4.0",
+		"npm": ">=5.3.0"
+	},
+	"scripts": {
+		"start": "node chaincode1.js"
+	},
+	"engine-strict": true,
+	"license": "Apache-2.0",
+	"dependencies": {
+		"fabric-shim": "^1.4.0"
+	}
+}
