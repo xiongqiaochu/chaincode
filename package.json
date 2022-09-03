@@ -11,7 +11,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "ssh://git@10.201.200.188:222/chenjing/chaincode.git"
+		"url": "ssh://git@github.com:xiongqiaochu/chaincode.git"
 	},
 	"engines": {
 		"node": ">=8.4.0",
